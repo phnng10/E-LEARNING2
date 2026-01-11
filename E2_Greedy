@@ -53,6 +53,7 @@ public:
         
         //quay ve thanh pho 0
         minCost += cost[current][0];
+        path.push_back(0);//new edited
     }
     
     void printResult() {
