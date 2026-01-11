@@ -64,7 +64,6 @@ public:
             cout << path[i];
             if (i < path.size() - 1) cout << " ";
         }
-        cout << " 0" << endl;
     }
     
     int getMinCost() {
