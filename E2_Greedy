@@ -53,6 +53,7 @@ public:
         
         //quay ve thanh pho 0
         minCost += cost[current][0];
+        path.push_back(0);//new edited
     }
     
     void printResult() {
@@ -63,7 +64,6 @@ public:
             cout << path[i];
             if (i < path.size() - 1) cout << " ";
         }
-        cout << " 0" << endl;
     }
     
     int getMinCost() {
